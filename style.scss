@@ -2,6 +2,7 @@ div.card-container{
     margin: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+    // ########### CARD 1 ###################
     #card-1{
         padding: 0;
         max-width: 24.5em;
@@ -10,10 +11,8 @@ div.card-container{
 
         .card-header{
             background-color: #FAC993;
-            // height: 11em;
             border-radius: 10px 10px 0 0;
             padding-top: 8.8em;
-            // clip-path: polygon(0 0, 100% 0, 100% 75%, 0 75%);
             height: 4rem;
            
             .card-avatar  {
@@ -46,6 +45,7 @@ div.card-container{
                 }
                 p{
                     margin-top: 5px;
+                    font-size: 15px;
                 }
             }
 
@@ -92,4 +92,80 @@ div.card-container{
         }
         
     }
+    // ########### CARD 1 ###################
+
+
+    // ########### CARD 2 ###################
+
+     #card-2{
+        @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400');
+        font-family: 'Quicksand', sans-serif;
+        height: 26rem;
+        width: 37rem;
+        background-color: rgb(243, 241, 241);
+
+        table.main{
+            height: 100%;
+            width: 100%;
+            border-collapse: collapse;
+            
+            tr {
+                .info{
+                    text-align: center;
+                    background-image: linear-gradient(to bottom right, #81BFEA, #6A4DA2);
+                    width: 12.3em;
+                    padding: 0;
+                    color: #fff;
+
+
+                    .name h2{
+                        text-transform: uppercase;
+                        margin-bottom: 10px;
+                        
+                        font-weight: 200;
+        
+                    }
+
+                    .career{
+                        font-size: 13px;
+                        margin-bottom: 30px;
+                        padding: 0 25px;
+                    }
+                    .bio {
+                        font-size: 10.5px;
+                        padding: 0 25px;
+                        margin-bottom: 30px;
+                    }
+
+                    table.social{
+                        width: 100%;
+                        margin-bottom: 45px;
+                            font-size: 10.5px;
+
+                        tr td span{
+                            font-size: 8.5px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+                ul{
+                    width: 100%;
+                    padding: 0;
+                    li{
+                        display: inline-block;
+                        margin: 0 11px;
+                    }
+                }
+
+                .img{
+                    background-color: #EBEBEB;
+                }
+            }
+        }
+
+    }
+
+    // ########### CARD 2 ###################
+
+
 }

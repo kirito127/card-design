@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400");
 div.card-container {
   margin: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -48,6 +49,7 @@ div.card-container #card-1 .card-body .profile h2 {
 
 div.card-container #card-1 .card-body .profile p {
   margin-top: 5px;
+  font-size: 15px;
 }
 
 div.card-container #card-1 .card-body ul {
@@ -88,5 +90,70 @@ div.card-container #card-1 .card-body button {
   font-weight: bold;
   color: #fff;
   font-size: 17px;
+}
+
+div.card-container #card-2 {
+  font-family: 'Quicksand', sans-serif;
+  height: 26rem;
+  width: 37rem;
+  background-color: #f3f1f1;
+}
+
+div.card-container #card-2 table.main {
+  height: 100%;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+div.card-container #card-2 table.main tr .info {
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#81BFEA), to(#6A4DA2));
+  background-image: linear-gradient(to bottom right, #81BFEA, #6A4DA2);
+  width: 12.3em;
+  padding: 0;
+  color: #fff;
+}
+
+div.card-container #card-2 table.main tr .info .name h2 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+div.card-container #card-2 table.main tr .info .career {
+  font-size: 13px;
+  margin-bottom: 30px;
+  padding: 0 25px;
+}
+
+div.card-container #card-2 table.main tr .info .bio {
+  font-size: 10.5px;
+  padding: 0 25px;
+  margin-bottom: 30px;
+}
+
+div.card-container #card-2 table.main tr .info table.social {
+  width: 100%;
+  margin-bottom: 45px;
+  font-size: 10.5px;
+}
+
+div.card-container #card-2 table.main tr .info table.social tr td span {
+  font-size: 8.5px;
+  text-transform: uppercase;
+}
+
+div.card-container #card-2 table.main tr ul {
+  width: 100%;
+  padding: 0;
+}
+
+div.card-container #card-2 table.main tr ul li {
+  display: inline-block;
+  margin: 0 11px;
+}
+
+div.card-container #card-2 table.main tr .img {
+  background-color: #EBEBEB;
 }
 /*# sourceMappingURL=style.css.map */
