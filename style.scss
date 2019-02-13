@@ -1,0 +1,95 @@
+div.card-container{
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    #card-1{
+        padding: 0;
+        max-width: 24.5em;
+        box-shadow: 0 5px 15px rgb(221, 221, 221);
+        border-radius: 10px;
+
+        .card-header{
+            background-color: #FAC993;
+            // height: 11em;
+            border-radius: 10px 10px 0 0;
+            padding-top: 8.8em;
+            // clip-path: polygon(0 0, 100% 0, 100% 75%, 0 75%);
+            height: 4rem;
+           
+            .card-avatar  {
+                height: 8em;
+                width:8em;
+                background-color: #DEDED6;
+                border-radius: 50%;
+                margin: auto;
+            }
+        }
+
+           
+
+        .card-body{
+            position: relative;
+            z-index: -1 !important;
+            border-radius: 0 0 10px 10px;
+            overflow: hidden;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            color: #4E5F6F;
+            height: auto;
+            padding-top: 40px;
+
+            .profile{
+                margin: 30px;
+
+                h2{
+                    margin-bottom: 0;
+                }
+                p{
+                    margin-top: 5px;
+                }
+            }
+
+
+            ul{
+                list-style: none;
+                padding: 0;
+
+                li{
+                    display: inline;
+                    margin: 25px;
+                }
+            }
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                border-top: 1px solid rgb(212, 212, 212);
+                background-color: #F8F9F9;
+                margin-top: 30px;
+
+                tr td:first-child{
+                    border-right: 0.1px solid rgb(212, 212, 212);
+                }
+                
+                tr td p{
+                    font-weight: bold;
+
+                    span{
+                        font-weight: normal;
+                    }
+                }
+            }
+
+            button{
+                background-color: #64BC7F;
+                border: 0;
+                width: 100%;
+                padding: 18px 0;
+                font-weight: bold;
+                color: #fff;
+                font-size: 17px;
+            }
+
+        }
+        
+    }
+}

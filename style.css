@@ -1,0 +1,92 @@
+div.card-container {
+  margin: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.card-container #card-1 {
+  padding: 0;
+  max-width: 24.5em;
+  -webkit-box-shadow: 0 5px 15px #dddddd;
+          box-shadow: 0 5px 15px #dddddd;
+  border-radius: 10px;
+}
+
+div.card-container #card-1 .card-header {
+  background-color: #FAC993;
+  border-radius: 10px 10px 0 0;
+  padding-top: 8.8em;
+  height: 4rem;
+}
+
+div.card-container #card-1 .card-header .card-avatar {
+  height: 8em;
+  width: 8em;
+  background-color: #DEDED6;
+  border-radius: 50%;
+  margin: auto;
+}
+
+div.card-container #card-1 .card-body {
+  position: relative;
+  z-index: -1 !important;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+  color: #4E5F6F;
+  height: auto;
+  padding-top: 40px;
+}
+
+div.card-container #card-1 .card-body .profile {
+  margin: 30px;
+}
+
+div.card-container #card-1 .card-body .profile h2 {
+  margin-bottom: 0;
+}
+
+div.card-container #card-1 .card-body .profile p {
+  margin-top: 5px;
+}
+
+div.card-container #card-1 .card-body ul {
+  list-style: none;
+  padding: 0;
+}
+
+div.card-container #card-1 .card-body ul li {
+  display: inline;
+  margin: 25px;
+}
+
+div.card-container #card-1 .card-body table {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #d4d4d4;
+  background-color: #F8F9F9;
+  margin-top: 30px;
+}
+
+div.card-container #card-1 .card-body table tr td:first-child {
+  border-right: 0.1px solid #d4d4d4;
+}
+
+div.card-container #card-1 .card-body table tr td p {
+  font-weight: bold;
+}
+
+div.card-container #card-1 .card-body table tr td p span {
+  font-weight: normal;
+}
+
+div.card-container #card-1 .card-body button {
+  background-color: #64BC7F;
+  border: 0;
+  width: 100%;
+  padding: 18px 0;
+  font-weight: bold;
+  color: #fff;
+  font-size: 17px;
+}
+/*# sourceMappingURL=style.css.map */
