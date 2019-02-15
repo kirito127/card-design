@@ -4,6 +4,10 @@ div.card-container {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+div.card-container hr {
+  border-top: 2px dashed #d6d6d6;
+}
+
 div.card-container #card-1 {
   padding: 0;
   max-width: 24.5em;
@@ -155,5 +159,130 @@ div.card-container #card-2 table.main tr ul li {
 
 div.card-container #card-2 table.main tr .img {
   background-color: #EBEBEB;
+}
+
+div.card-container #card-3 {
+  height: 32rem;
+  width: 20rem;
+  background-color: #7D8999;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+div.card-container #card-3 #front {
+  float: right;
+  margin: 30px 20px;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 90%;
+  position: relative;
+}
+
+div.card-container #card-3 #front .name {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+div.card-container #card-3 #front .job {
+  font-size: 13px;
+}
+
+div.card-container #card-3 #front button {
+  background-color: #FFE214;
+  border: 0;
+  border-radius: 25px;
+  padding: 9px 22px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+div.card-container #card-3 #front button:hover {
+  background-color: #e0c400;
+}
+
+div.card-container #card-3 #back {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+div.card-container #card-3 #back .card {
+  z-index: 999;
+  padding-top: 40px;
+  position: relative;
+  top: 100%;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  background-color: rgba(255, 255, 255, 0.97);
+  text-align: center;
+}
+
+div.card-container #card-3 #back .card .add-btn {
+  text-align: center;
+  line-height: 1.7;
+  font-size: 22px;
+  height: 40px;
+  width: 40px;
+  background-color: #FFE214;
+  border-radius: 50%;
+  color: #7D8999;
+  float: right;
+  margin-top: -65px;
+  margin-right: 20px;
+  -webkit-box-shadow: 0 5px 10px rgba(125, 137, 153, 0.664);
+          box-shadow: 0 5px 10px rgba(125, 137, 153, 0.664);
+  z-index: -1;
+}
+
+div.card-container #card-3 #back .card .add-btn:hover {
+  background-color: #e0c400;
+}
+
+div.card-container #card-3 #back .card .name {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+div.card-container #card-3 #back .card ul {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 13px;
+  padding: 0;
+  margin-bottom: 45px;
+}
+
+div.card-container #card-3 #back .card ul li {
+  display: inline-block;
+}
+
+div.card-container #card-3 #back .card ul li:first-child {
+  margin-right: 25px;
+}
+
+div.card-container #card-3 #back .card table {
+  border-top: 0.01em solid rgba(90, 90, 90, 0.863);
+  width: 100%;
+}
+
+div.card-container #card-3 #back .card table tr td {
+  font-weight: bold;
+  font-size: 28px;
+  color: #5A5A5A;
+  padding: 12px;
+}
+
+div.card-container #card-3 #back .card table tr td span {
+  font-weight: lighter;
+  font-size: 12px;
+  color: gray;
+  display: block;
+}
+
+div.card-container #card-3 #back .card table tr .border {
+  border-right: 0.01em solid rgba(90, 90, 90, 0.863);
 }
 /*# sourceMappingURL=style.css.map */
